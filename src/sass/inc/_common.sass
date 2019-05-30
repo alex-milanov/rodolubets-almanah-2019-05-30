@@ -1,0 +1,36 @@
+
+.left
+	float: left
+.right
+	float: right
+.onTop
+	z-index: 999!important
+
+body
+	font-family: Jura
+	margin: 0px
+	padding: 0px
+	color: #fff
+	text-shadow: 0px 0px 3px #000
+	// background: url('../assets/img/background.jpg') no-repeat fixed center
+	background-size: contain
+	// background-color: #045e20
+	// background-color: #06892f
+	background-color: #1a7a30
+	background: url('../assets/img/tile.png') repeat 256px, url('../assets/img/top-left-2.png') no-repeat fixed top left/40%
+	background-color: #1a7a30
+
+h1, h2, h3, h4, h5
+	+reset
+	font-weight: normal
+
+h1, h2, h3
+	font-family: $slides-font-title
+	text-shadow: 1px 1px 3px #333
+	color: #ebfef1
+
+a
+	color: #bcf
+	text-decoration: none
+	&:hover
+		text-decoration: underline
